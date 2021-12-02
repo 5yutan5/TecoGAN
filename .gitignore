@@ -104,13 +104,33 @@ venv.bak/
 
 # others
 # TecoGAN model
-model
+model/**
 # inputs
-LR
+LR/**
 # outputs
 results
 # targets
-HR
+HR/**
 # runs
 ex_*
 tx_*
+
+# ignore
+!HR/bridge
+!HR/calender
+!HR/city
+!HR/face
+!HR/foliage
+!HR/room
+!HR/walk
+
+!LR/bridge
+!LR/city
+!LR/face
+!LR/foliage
+!LR/room
+!LR/walk
+
+!model/TecoGan.data-00000-of-00001
+!model/TecoGan.index
+!model/TecoGan.meta
