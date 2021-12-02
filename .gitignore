@@ -105,12 +105,8 @@ venv.bak/
 # others
 # TecoGAN model
 model/**
-# inputs
-LR/**
 # outputs
 results
-# targets
-HR/**
 # runs
 ex_*
 tx_*
